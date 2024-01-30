@@ -56,11 +56,12 @@ h3 {
 
 .nav {
     display: flex;
-    width: 505px;
+    width: 600px;
     height: auto;;
     list-style-type: none;
     margin: 50px auto 50px auto;
     color: red;
+    /* border: 5px solid black; */
 }
 
 
@@ -90,7 +91,9 @@ li {
 
 .recipe {
     /* border: 5px solid purple; */
+    text-align: center;
     margin: auto;
+    flex: 1;
 }
 
 a {
